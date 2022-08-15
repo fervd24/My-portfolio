@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.mainFooterContainer {
+    height: 170px;
+}
+
+.footerSubcontainer {
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footerSubcontainer p{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.dark-theme .footerSubcontainer p{
+    color: #ddd;
+}
+
+.dark-theme .footerSubcontainer span{
+    color: #ddd;
+}
+
+.tglBtnContainer {
+    margin: 1rem 0;
+}
+
+.tglBtn {
+    width: 110px;
+    height: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.switchContainer{
+    height: 40px;
+    margin-bottom: 1rem;
+}
+label{
+    display: flex;
+    width: 70px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,59,255,1) 100%);
+    border: 3px solid purple;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+}
+
+.light-theme .switchContainer label {
+    border: 3px solid #fff;
+}
+.toggleIcon{
+    font-size: 20px;
+}
+
+.faMoonIcon{
+    color: gold;
+    transition: 0.8s;
+}
+
+.faSunIcon{
+    color: #fff;
+    transition: 0.8s;
+}
+
+.ball{
+    display: none;
+}
+
+.iptCheckbox:checked + label .faSunIcon {
+    transform: translateX(56px) rotate(160deg);
+    opacity: 0;
+}
+
+label .ball{
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 5px;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+.iptCheckbox:checked + label .ball{
+    transform: translateX(-46px);
+}
+
+label .faMoonIcon {
+    opacity: 0;
+    transform: translateX(-56px) rotate(250deg);
+}
+
+.iptCheckbox:checked + label .faMoonIcon {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+}
+
+label {
+    transition: 0.3s;
+}
+
+.iptCheckbox:checked + label {
+    background: linear-gradient(360deg, rgba(1,78,85,1) 1%, rgba(3,171,207,1) 40%, rgba(0,235,251,1) 90%);
+}
+
+.iptCheckbox:checked + label .ball {
+    background: #222;
+}
+
+.iptCheckbox {
+    display: none;
+}
+
+@media (max-width: 670px) {
+    .mainFooterContainer {
+        height: 140px;
+    }
+}
