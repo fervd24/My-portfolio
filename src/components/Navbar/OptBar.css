@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.optsContainer {
+    display: flex;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+}
+
+.optsContainerPhone{
+    display: none;
+}
+
+.opt{
+    margin: 0.8rem 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 16px 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.dark-theme .opt{
+    color: #ddd;
+}
+
+.light-theme .opt{
+    color: #001f3f;
+}
+.opt:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+@media (max-width: 670px) {
+    .optsContainer {
+        display: none;
+    }
+
+    .optsContainerPhone{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .opt{
+        margin: 0;
+        animation-name: showMenuLi;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes showMenuLi {
+        0%{
+            height: 0;
+            opacity: 0;
+        }
+
+        100%{
+            height: 2.1rem;
+            opacity: 1;
+        }
+    }
+}
+

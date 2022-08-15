@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarLogo {
+    margin: 1.5rem 0.5rem 0 2.2rem;
+    font-family: 'Yellowtail', cursive;
+    font-size: 27px;
+    min-width: 200px;
+    text-decoration: none;
+}
+
+.dark-theme .navbarLogo{
+    color: #fff;
+}
+
+.light-theme .navbarLogo{
+    color: #001f3f;
+}
+
+.barsIconContainer {
+    display: none;
+    
+}
+
+@media (max-width: 670px) {
+    .optsContainer{
+        display: none;
+    }
+
+    .barsIconContainer{
+        display: flex;
+        justify-content: end;
+        width: 80px;
+        height: auto;
+        margin-top: 1rem;
+    }
+    .barsIcon{
+        height: 20px;
+        width: 25px;
+        border: none;
+        font-size: 25px;
+        margin: auto;
+        cursor: pointer;
+    }
+    .dark-theme .barsIcon{
+        color: #fff;
+        background-color: #001f3f;
+    }
+    .light-theme .barsIcon{
+        background-color: #fff;
+        color: #001f3f;
+    }
+
+    .barsIcon:hover{
+        opacity: 0.7;
+    }
+}
