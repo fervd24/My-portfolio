@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.whatidoContainer {
+    display: flex;
+    height: 600px;
+    margin-bottom: 6rem;
+}
+
+.imgContainer2 {
+    width: 400px;
+    margin: auto;
+    margin-right: 3rem;
+}
+
+.imgContainer2 img{
+    width: 100%;
+    height: auto;
+}
+
+.whatidoText{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.whatidoText h2 {
+    font-size: 45px;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.light-theme .whatidoText h2{
+    color: #001f3f;
+}
+
+.whatidoText h3{
+    font-size: 30px;
+    color: #aaa;
+    margin-bottom: 3rem;
+}
+
+.light-theme .whatidoText h3{
+    color: #001f3f;
+    opacity: 0.8;
+}
+
+.todoListContainer {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.todoTask {
+    text-align: left;
+    margin: 1rem 0;
+    color: #aaa;
+    font-size: 20px;
+    list-style: none;
+}
+
+.light-theme .todoTask{
+    color: #001f3f;
+    opacity: 0.9;
+}
+
+.checkIcon {
+    color: #2ECC40;
+}
+
+@media (max-width: 800px){
+    .whatidoContainer{
+        flex-direction: column-reverse;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .todoListContainer {
+        width: 100%;
+    }
+    .imgContainer2 {
+        width: auto;
+        margin: 1rem 3rem;
+    }
+    .whatidoText{
+        width: auto;
+        margin: 2rem;
+    }
+}
