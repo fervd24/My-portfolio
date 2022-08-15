@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.statisticsContainer{
+    display: flex;
+}
+
+.skillsContainer{
+    height: 1200px;
+}
+
+.skillsContainer h2{
+    margin-left: 8vw;
+    font-size: 34px;
+    font-family: 'PT Sans', sans-serif;
+    color: #eee;
+}
+
+.light-theme .skillsContainer h2{
+    color: #001f3f;
+}
+
+.skillsImgContainer{
+    margin: 4rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.skillsImgContainer img{
+    width: 600px;
+    object-fit:contain;
+    max-height: 600px;
+}
+
+.skillBarsContainer{
+    margin: 4rem 0 2rem 0;
+}
+
+.titleSkillBar{
+    font-size: 23px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ddd;
+    margin-left: 8vw;
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.light-theme .titleSkillBar{
+    color: #001f3f;
+}
+
+.lgFwContainer{
+    height: 80px;
+}
+
+.lgFwContainer h2{
+    width: 400px;
+    height: 20px;
+    margin-left: 8vw;
+    border-radius: 30px;
+    background-color: #b308cc;
+}
+
+.light-theme .lgFwContainer h2{
+    background-color: #777;
+}
+
+.bar{
+    height: 100%;
+    border-radius: 30px 8px 8px 30px;
+    background-color: #7cdaff;
+}
+
+.light-theme .bar{
+    background-color: #b308cc;
+}
+.percentHtml{
+    width: 90%;   
+}
+
+.percentCss{
+    width: 85%;
+}
+
+.percentJs{
+    width: 90%;
+}
+
+.percentReact{
+    width: 80%;
+}
+
+.percentNode{
+    width: 75%;
+}
+
+.aptsContainer{
+    width: 600px;
+    margin: 4rem auto;
+}
+
+.aptsContainer h2{
+    margin-bottom: 2rem;
+}
+
+.aptsSubContainer{
+    width: 100%;
+    height: auto;
+}
+
+.titleAptBar{
+    font-size: 23px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ddd;
+    margin-left: 8vw;
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.light-theme .titleAptBar{
+    color: #001f3f;
+}
+
+.aptsSubcontainer h2{
+    width: 400px;
+    height: 20px;
+    margin-left: 8vw;
+    border-radius: 30px;
+    background-color: #b308cc;
+}
+
+.light-theme .aptsSubcontainer h2{
+    background-color: #777;
+}
+.aptBar{
+    height: 100%;
+    border-radius: 30px 8px 8px 30px;
+    background-color: #7cdaff;
+}
+
+.light-theme .aptBar{
+    background-color: #b308cc;
+}
+
+.percentProgramming{
+    width: 90%;
+}
+
+.percentFrontend{
+    width: 85%;
+}
+
+.percentBackend{
+    width: 80%;
+}
+
+@media (max-width: 900px){
+    .aptsContainer{
+        width: 100%;
+    }
+
+    .skillsContainer{
+        height: 1700px;
+    }
+    .statisticsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aptsSubcontainer h2{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 670px){
+
+    .skillsContainer{
+        height: auto;
+    }
+
+    .skillsImgContainer img{
+        width: 100%;
+    }
+    .lgFwContainer h2{
+        width: 300px;
+    }
+}
