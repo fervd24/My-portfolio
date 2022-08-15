@@ -1,0 +1,48 @@
+.socNetIconsContainer {
+    height: 56px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.iconContainer {
+    margin: auto;
+    padding: auto;
+    border-radius: 30px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+}
+
+.ghContainer {
+    background-color: black;
+    
+}
+
+.liContainer {
+    background-color: #0072b1;
+    
+}
+
+.cvContainer {
+    background-color: #3b5998;
+    
+}
+
+.iContainer {
+    background-color: #FD1D1D;
+    
+}
+
+.iconContainer:hover {
+    background-color: #003f3f;
+    transition: 0.7s;
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    color: white;
+    margin: 15px;
+}
