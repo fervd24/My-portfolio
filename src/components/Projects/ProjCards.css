@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.projCardsContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+}
+
+.projCardsSubcontainer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardContainer{
+    height: auto;
+    background-color: #ddd;
+    width: 32%;
+    margin: 1rem auto;
+    border-radius: 5px;
+    font-family: 'PT Sans', sans-serif;
+    color: #001f3f;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardContainer:hover{
+    text-decoration: underline;
+}
+.cardContainer h3{
+    margin: 1rem 0.9rem;
+}
+
+.cardContainer p{
+    width: 300px;
+    margin-left: 1rem;
+}
+
+.projIconsContainer{
+    height: auto;
+    text-align: end;
+    margin-top: 0.3rem;
+}
+
+.projIcon{
+    width: 30px;
+    height: 30px;
+    margin: 0 0.7rem;
+}
+
+.projIconJs{
+    color: #F0DB4F;
+    background-color: #222;
+}
+
+.projIconHtml{
+    color: #FF5733;
+}
+
+.projIconCss{
+    color: #264de4;
+}
+@media (max-width: 1070px) {
+    .cardContainer{
+        width: 49%;
+        margin-top: 0.1rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .cardContainer{
+        width: 90%;
+    }
+
+    .projCardsContainer{
+        height: auto;
+    }
+
+    .projIcon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
