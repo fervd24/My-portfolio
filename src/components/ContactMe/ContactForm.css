@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.contactMainContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactFormContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.contactFormContainer span{
+    color: #FF0000;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+.contactFormContainer p{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 1rem;
+}
+
+.contactFormContainer button{
+    margin: 2rem auto;
+}
+.iptContainer{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+}
+
+.iptTxtContainer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.ipt, .iptTextarea{
+    width: 350px;
+    height: 30px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.dark-theme .ipt, .dark-theme .iptTextarea{
+    background-color: #ccc;
+    border-bottom: 2px solid #555;
+}
+
+.light-theme .ipt, .light-theme .iptTextarea{
+    background-color: #002f5f;
+    border-bottom: 2px solid #777;
+    color: #ddd;
+}
+
+.iptSubmit{
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF0000;
+    color: #ddd;
+}
+
+.loadingMsgContainer{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dark-theme .loadingMsgContainer p{
+    color: #000;
+}
+.light-theme .loadingMsgContainer p{
+    color: #fff;
+}
+.dark-theme .loadingMsgContainer{
+    background-color: #fff;
+}
+.light-theme .loadingMsgContainer{
+    background-color: #001f3f;
+}
+
+.iptSubmit:hover{
+    background-color: #bb0000;
+}
+
+.iptTextarea{
+    width: 350px;
+    height: 100px;
+    margin-top: 2rem;
+}
+
+.contactIconsContainer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgSubContainer{
+    width: 100%;
+    text-align: center;
+}
+.messageSubmited{
+    margin: 12rem auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.msgSubContainer button{
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FF0000;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 9rem;
+}
+
+
+@media (max-width:650px) {
+    .ipt{
+        width: 300px;
+        height: 36px;
+        margin-top: 2rem;
+    }
+    
+    .msgSubContainer{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .msgSubContainer button{
+        margin-bottom: 4rem;
+    }
+
+    .contactFormContainer textarea{
+        width: 300px;
+        height: 100px;
+        margin-top: 2rem;
+    }
+}
