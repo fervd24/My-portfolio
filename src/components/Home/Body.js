@@ -36,12 +36,17 @@ export default function Body() {
                     <img src={vader} alt="vader"/>
                 </div>
                 <div className={`${theme} whatidoText`}>
-                    <h2>Skills</h2>
-                    <h3>Front End Development</h3>
+                    <h2>Aptitudes</h2>
+                    <h3>Web development</h3>
                     <TechIcons/>
                     <div className="todoListContainer">
                         {
-                            skillsList.map(todo => <li key={todo.id} className={`${theme} todoTask`}><FontAwesomeIcon icon={faCheck} className="checkIcon"/> {todo.do}</li>)
+                            skillsList.map(todo => <li key={todo.id} className={`${theme} todoTask`}>
+                                <FontAwesomeIcon icon={faCheck} className="checkIcon"/> 
+                                <div>
+                                    {todo.do}
+                                </div>
+                            </li>)
 
                         }
                     </div>

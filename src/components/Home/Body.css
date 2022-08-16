@@ -53,10 +53,11 @@
 
 .todoTask {
     text-align: left;
-    margin: 1rem 0;
+    margin: 1.3rem 0;
     color: #aaa;
     font-size: 20px;
     list-style: none;
+    display: flex;
 }
 
 .light-theme .todoTask{
@@ -66,6 +67,9 @@
 
 .checkIcon {
     color: #2ECC40;
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    height: 24px;
 }
 
 @media (max-width: 800px){
