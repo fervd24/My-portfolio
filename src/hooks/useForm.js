@@ -26,10 +26,7 @@ export const useForm = (initialForm, formValidations, apiCall) => {
 
         if(Object.keys(errors).length === 0) {
             setLoading(true);
-            setTimeout(() => {
-                apiCall(form, setLoading, setResponse);
-
-            }, 4000)
+            apiCall(form, setLoading, setResponse);
 
         }
     }
