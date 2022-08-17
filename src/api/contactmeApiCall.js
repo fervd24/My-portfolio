@@ -4,7 +4,7 @@ export const contactmeApiCall = async(form, setLoading, setResponse) => {
 
     try {
     
-        await axios("http://localhost:4000/contact", {
+        await axios("https://phonebook-app-project.herokuapp.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8",
