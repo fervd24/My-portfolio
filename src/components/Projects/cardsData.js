@@ -22,7 +22,8 @@ const cardsData = [
                 iconName: faCss3,
                 className: "projIconCss"
             }
-        ]
+        ],
+        link: "https://github.com/fervd24/My-portfolio"
     },
     {
         id: 2,
@@ -41,12 +42,13 @@ const cardsData = [
                 iconName: faCss3,
                 className: "projIconCss"
             }
-        ]
+        ],
+        link: "https://github.com/fervd24/Mexico-Demography-Searchengine"
     },
     {
         id: 3,
         title: "Phonebook",
-        desc: "A phonebook app with a client and server side created in Reactjs, nodejs-Express and MongoDB that manage the user sign up - sign in as well as the CRUD of the contacts.",
+        desc: "A phonebook app with a frontend created in Reactjs and a REST api created in NodeJS-Express that manage the log in and sign up of the users, MongoDB is used to store users data.",
         imgs: [
             {
                 iconName: faJs,
@@ -60,7 +62,8 @@ const cardsData = [
                 iconName: faCss3,
                 className: "projIconCss"
             }
-        ]
+        ],
+        link: "https://github.com/fervd24/Phonebook-app"
     }
 ];
 
