@@ -20,6 +20,7 @@ export default function ContactForm() {
         errors,
         loading,
         response,
+        setResponse,
         handleChange,
         handleBlur,
         handleSubmit
@@ -30,7 +31,7 @@ export default function ContactForm() {
             {response ?
             <div className="msgSubContainer">
                 <h1 className="messageSubmited">Message Succesfully Sent !</h1>
-                <button onClick={() => window.location.reload(false)}>Back</button>
+                <button onClick={() => setResponse(false)}>Back</button>
             </div>: 
             <form className="contactFormContainer" onSubmit={handleSubmit}>
                 <div className="iptContainer">
