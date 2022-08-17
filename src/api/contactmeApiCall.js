@@ -14,10 +14,9 @@ export const contactmeApiCall = async(form, setLoading, setResponse) => {
     
         setLoading(false);
         setResponse(true);
- 
          
     } catch (error) {
         setLoading(false);
-        alert(error);
+        console.log(error);
     }
 }
