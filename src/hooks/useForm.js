@@ -27,7 +27,11 @@ export const useForm = (initialForm, formValidations, apiCall) => {
         if(Object.keys(errors).length === 0) {
             setLoading(true);
             apiCall(form, setLoading, setResponse);
-
+            setForm({
+                name: '',
+                email: '',
+                msg: ''
+            })
         }
     }
 
@@ -36,6 +40,7 @@ export const useForm = (initialForm, formValidations, apiCall) => {
         errors,
         loading,
         response,
+        setResponse,
         handleChange,
         handleBlur,
         handleSubmit
