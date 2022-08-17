@@ -16,7 +16,7 @@ export default function Header() {
                     <div className={`${theme} whoamiText`}>
                         <h2>Fernando Villalobos</h2>
                         <p>
-                            An aspiring developer who loves to take
+                            An aspiring web developer who loves to take
                             on new challenging projects and put to the test 
                             his analytical and technological capacities.
                         </p>
