@@ -14,15 +14,18 @@ export default function Header() {
         <header className={`${theme} whoamiContainer`}>
                 <div className="whoamiSubcontainer">
                     <div className={`${theme} whoamiText`}>
-                        <h2>Fernando Villalobos</h2>
-                        <p>
-                            An aspiring web developer who loves to take
-                            on new challenging projects and put to the test 
-                            his analytical and technological capacities.
-                        </p>
-                        <div className="btnsContainer">
-                            <Button textBtn="Follow me on github" path={'https://github.com/fervd24'}/>
-                            <Button textBtn="CV" path={'https://www.google.com/'}/>
+                        <div>
+                            <h2>Fernando Villalobos</h2>
+                            <p>
+                                An aspiring web developer who loves to take
+                                on new challenging projects and put to the test 
+                                his analytical and technological capacities.
+                            </p>
+                            <div className="btnsContainer">
+                                <Button textBtn="Follow me on github" path={'https://github.com/fervd24'}/>
+                                <Button textBtn="CV" path={'https://www.google.com/'}/>
+                            </div>
+
                         </div>
                     </div>
                     <div className="imgContainer">
