@@ -18,8 +18,14 @@
     margin-bottom: 6rem;
 }
 
+.imgContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .imgContainer img{
-    width: 100%;
+    width: 600px;
 }
 
 .headerIconsContainer{
@@ -32,7 +38,7 @@
 .whoamiText {
     padding-top: 10rem;
     margin-left: 7vw;
-    width: 46%;
+    width: 50%;
     min-width: 400px;
     font-family: 'PT Sans', sans-serif;
 }
@@ -82,6 +88,12 @@
 
     .imgContainer {
         margin-left: 0;
+        height: 450px;
+        width: auto;
+    }
+
+    .imgContainer img{
+        width: 350px;
     }
 
     .btnsContainer{

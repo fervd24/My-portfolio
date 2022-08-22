@@ -7,13 +7,16 @@
 }
 
 .imgContainer2 {
-    width: 400px;
+    width: 50%;
     margin: auto;
     margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgContainer2 img{
-    width: 100%;
+    width: 600px;
     height: auto;
 }
 
@@ -84,6 +87,10 @@
     .imgContainer2 {
         width: auto;
         margin: 1rem 3rem;
+    }
+
+    .imgContainer2 img{
+        width: 350px;
     }
     .whatidoText{
         width: auto;
