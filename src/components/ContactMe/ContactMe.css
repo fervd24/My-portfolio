@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 .contactMeContainer{
-    height: auto;
+    height: 1200px;
     display: flex;
     margin-bottom: 2rem;
 }
 
 .contactMeSubcontainer1 {
     border-radius: 8px;
-    margin: 0.9rem 0;
-    width: 45%;
+    margin: auto;
+    width: 900px;
 }
+
 .dark-theme .contactMeSubcontainer1{
     background-color: #fff;
+    height: 950px;
 }
 
 .light-theme .contactMeSubcontainer1{
     background-color: #001f3f;
     color: #fff;
+    height: 950px;
 }
 
 .contactMeSubcontainer1 h2{
@@ -32,6 +35,8 @@
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     color: #fff;
+    height: 950px;
+    margin: auto;
     
 }
 
