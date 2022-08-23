@@ -14,9 +14,8 @@ export const contactmeApiCall = async(form, setLoading, setResponse) => {
     
         setLoading(false);
         setResponse(true);
-         
     } catch (error) {
         setLoading(false);
-        console.log(error);
+        console.log('Error 500');
     }
 }
