@@ -23,7 +23,7 @@ const iconsData = [
         id: 3,
         name: faFileInvoice,
         className: "cvContainer",
-        ref: "https://google.com/",
+        ref: "https://drive.google.com/file/d/12rZOpYE2kETUc7AtHLB9YBhao73cz3Ex/view?usp=sharing",
         title: "Resume (CV)"
     },
 ];

@@ -23,7 +23,7 @@ export default function Header() {
                             </p>
                             <div className="btnsContainer">
                                 <Button textBtn="Follow me on github" path={'https://github.com/fervd24'}/>
-                                <Button textBtn="CV" path={'https://www.google.com/'}/>
+                                <Button textBtn="CV" path={'https://drive.google.com/file/d/12rZOpYE2kETUc7AtHLB9YBhao73cz3Ex/view?usp=sharing'}/>
                             </div>
 
                         </div>
