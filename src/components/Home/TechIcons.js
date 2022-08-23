@@ -13,12 +13,12 @@ import "./TechIcons.css"
 export default function TechIcons() {
     return(
         <div className="techiconsContainer">
-            <FontAwesomeIcon icon={faHtml5} className="techIcon htmlIcon"/>
-            <FontAwesomeIcon icon={faCss3} className="techIcon cssIcon"/>
-            <FontAwesomeIcon icon={faJs} className="techIcon jsIcon"/>
-            <FontAwesomeIcon icon={faReact} className="techIcon reactIcon"/>
-            <FontAwesomeIcon icon={faNodeJs} className="techIcon nodejsIcon"/>
-            <FontAwesomeIcon icon={faNpm} className="techIcon npmIcon"/>
+            <FontAwesomeIcon icon={faHtml5} className="techIcon htmlIcon" title="HTML 5"/>
+            <FontAwesomeIcon icon={faCss3} className="techIcon cssIcon" title="CSS"/>
+            <FontAwesomeIcon icon={faJs} className="techIcon jsIcon" title="JavaScript"/>
+            <FontAwesomeIcon icon={faReact} className="techIcon reactIcon" title="React"/>
+            <FontAwesomeIcon icon={faNodeJs} className="techIcon nodejsIcon" title="Node.js"/>
+            <FontAwesomeIcon icon={faNpm} className="techIcon npmIcon" title="npm"/>
         </div>
     )
 }
