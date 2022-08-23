@@ -8,7 +8,7 @@ export default function SocNetIcons() {
         <div className="socNetIconsContainer">
             {iconsData.map(icon => {
                 return (
-                    <a key={icon.id} href={icon.ref} target="_blank" rel="noreferrer">
+                    <a key={icon.id} href={icon.ref} target="_blank" rel="noreferrer" title={icon.title}>
                         <div className={`${icon.className} iconContainer`}>
                             <FontAwesomeIcon icon={icon.name} className="icon"/>
                         </div>
