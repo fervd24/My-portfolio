@@ -13,19 +13,15 @@ export default function Body() {
     const skillsList =[
         {
             id: 1,
-            do: 'Building responsive website front end using React'
+            do: 'Build responsive and interactive Frontend interfaces for web using React'
         },
         {
             id: 2,
-            do: 'Creating tools that improve site interaction regardless of the browser'
+            do: 'Create tools that improve site interaction regardless of the browser'
         },
         {
             id: 3,
-            do: 'Building REST APIs with NodeJs and Express.'
-        },
-        {
-            id: 4,
-            do: 'Managins Software workflow'
+            do: 'Build REST APIs with NodeJs and Express.'
         },
     ];
     
@@ -36,7 +32,7 @@ export default function Body() {
                     <img src={vader} alt="vader"/>
                 </div>
                 <div className={`${theme} whatidoText`}>
-                    <h2>Aptitudes</h2>
+                    <h2>What I do</h2>
                     <h3>Web development</h3>
                     <TechIcons/>
                     <div className="todoListContainer">

@@ -25,7 +25,7 @@
     align-items: center;
 }
 .imgContainer img{
-    width: 600px;
+    width: 700px;
 }
 
 .headerIconsContainer{
@@ -45,13 +45,13 @@
 
 .whoamiText h2{
     margin-bottom: 1.5rem;
-    font-size: 45px;
+    font-size: 70px;
     
 }
 
 .whoamiText p{
-    font-size: 24px;
-    max-width: 550px;
+    font-size: 35px;
+    max-width: 750px;
     
 }
 
@@ -70,10 +70,28 @@
     margin-top: 4rem;
 }
 
+@media (max-width: 1700px) {
+    .whoamiText h2{
+        margin-bottom: 1.5rem;
+        font-size: 55px;
+        
+    }
+    
+    .whoamiText p{
+        font-size: 24px;
+        max-width: 550px;
+        
+    }
+    .imgContainer img{
+        width: 600px;
+    } 
+}
 @media (max-width:1017px) {
     .imgContainer img{
         width: 400px;
     } 
+
+   
 }
 
 @media (max-width:880px) {
@@ -100,7 +118,7 @@
     }
 
     .imgContainer img{
-        width: 450px;
+        width: 550px;
     }
 
     .btnsContainer{

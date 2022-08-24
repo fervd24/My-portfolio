@@ -3,7 +3,7 @@
 .whatidoContainer {
     display: flex;
     height: 600px;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 
 .imgContainer2 {
@@ -29,8 +29,8 @@
 }
 
 .whatidoText h2 {
-    font-size: 45px;
-    margin-bottom: 3rem;
+    font-size: 55px;
+    margin-bottom: 2.5rem;
     color: #fff;
 }
 
@@ -39,9 +39,9 @@
 }
 
 .whatidoText h3{
-    font-size: 30px;
+    font-size: 37px;
     color: #aaa;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .light-theme .whatidoText h3{
@@ -58,7 +58,7 @@
     text-align: left;
     margin: 1.3rem 0;
     color: #aaa;
-    font-size: 20px;
+    font-size: 30px;
     list-style: none;
     display: flex;
 }
@@ -73,6 +73,24 @@
     margin-right: 0.5rem;
     margin-top: 0.1rem;
     height: 24px;
+}
+
+@media (max-width: 1700px){
+    .whatidoText h2 {
+        font-size: 45px;
+    }
+
+    .whatidoText h3{
+        font-size: 30px;
+    }
+
+    .todoTask {
+        font-size: 25px;
+    }
+
+    .whatidoContainer {
+        margin-bottom: 6rem;
+    }
 }
 
 @media (max-width: 880px){
@@ -92,6 +110,11 @@
     .whatidoText{
         width: auto;
         margin: 2rem;
+        margin-top: 4rem;
+    }
+
+    .todoTask {
+        font-size: 20px;
     }
 }
 
