@@ -47,8 +47,8 @@ const cardsData = [
     },
     {
         id: 3,
-        title: "Phonebook",
-        desc: "A phonebook app with a frontend created in Reactjs and a REST api created in NodeJS-Express that manage the log in and sign up of the users, MongoDB is used to store users data.",
+        title: "Phonebook app",
+        desc: "A phonebook app with a frontend created in Reactjs and a REST API created in NodeJS-Express that manage the log in and sign up of the users, MongoDB is used to store users data.",
         imgs: [
             {
                 iconName: faJs,
