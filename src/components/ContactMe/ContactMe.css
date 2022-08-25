@@ -25,7 +25,7 @@
 }
 
 .contactMeSubcontainer1 h2{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 6rem;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
@@ -46,10 +46,13 @@
 }
 
 .contactMeSubcontainer2 h3{
-    font-size: 26px;
+    font-size: 45px;
     margin-top: 4rem;
 }
 
+.contactMeSubcontainer2 p{
+    font-size: 24px;
+}
 .contactLabel{
     height: 400px;
 }
@@ -63,6 +66,17 @@
     .contactMeSubcontainer1 {
         margin-right: 3rem;
         width: 40%;
+    }
+
+    .contactMeSubcontainer1 h2{
+        font-size: 40px;
+    }
+    .contactMeSubcontainer2 h3{
+        font-size: 36px;
+    }
+
+    .contactMeSubcontainer2 p{
+        font-size: 19px;
     }
 }
 

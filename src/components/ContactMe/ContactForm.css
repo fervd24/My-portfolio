@@ -22,7 +22,7 @@
 }
 
 .contactFormContainer p{
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'PT Sans', sans-serif;
     margin-top: 1rem;
 }
@@ -81,15 +81,19 @@
     align-items: center;
     flex-direction: column;
 }
+
 .dark-theme .loadingMsgContainer p{
     color: #000;
 }
+
 .light-theme .loadingMsgContainer p{
     color: #fff;
 }
+
 .dark-theme .loadingMsgContainer{
     background-color: #fff;
 }
+
 .light-theme .loadingMsgContainer{
     background-color: #001f3f;
 }
@@ -136,10 +140,16 @@
     margin-bottom: 9rem;
 }
 
+@media (max-width:2000px) {
+    
+    .contactFormContainer p{
+        font-size: 18px;
+    }
+}
 
 @media (max-width:650px) {
     .ipt{
-        width: 300px;
+        width: 280px;
         height: 36px;
         margin-top: 2rem;
     }
@@ -154,7 +164,7 @@
     }
 
     .contactFormContainer textarea{
-        width: 300px;
+        width: 280px;
         height: 100px;
         margin-top: 2rem;
     }
