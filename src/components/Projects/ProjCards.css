@@ -16,7 +16,7 @@
 }
 
 .cardContainer{
-    height: auto;
+    height: 200px;
     background-color: #ddd;
     width: 32%;
     margin: 1rem auto;
@@ -26,7 +26,7 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    position: relative;
 }
 
 .cardContainer:hover{
@@ -34,17 +34,20 @@
 }
 .cardContainer h3{
     margin: 1rem 0.9rem;
+    font-size: 23px;
 }
 
 .cardContainer p{
-    width: 300px;
+    width: 350px;
     margin-left: 1rem;
+    font-size: 18px;
 }
 
 .projIconsContainer{
-    height: auto;
-    text-align: end;
-    margin-top: 0.3rem;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0.1rem;
 }
 
 .projIcon{
@@ -66,9 +69,18 @@
     color: #264de4;
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1500px){
     .projCardsSubcontainer{
         width: 90%;
+    }
+
+    .cardContainer h3{
+        font-size: 20px;
+    }
+    
+    .cardContainer p{
+        font-size: 16px;
+        width: 300px;
     }
 }
 
@@ -76,6 +88,7 @@
     .cardContainer{
         width: 49%;
         margin-top: 0.1rem;
+        height: 180px;
     }
 
     .projCardsContainer{
@@ -86,10 +99,12 @@
 @media (max-width: 700px) {
     .cardContainer{
         width: 90%;
+        height: auto;
     }
 
     .projCardsContainer{
         height: auto;
+        margin-top: 7rem;
     }
 
     .projIcon{
@@ -99,5 +114,6 @@
 
     .cardContainer p{
         width: 250px;
+        margin-bottom: 2.3rem;
     }
 }
