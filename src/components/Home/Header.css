@@ -71,27 +71,44 @@
 }
 
 @media (max-width: 1700px) {
+    .whoamiText{
+        padding-left: 1rem;
+    }
+
     .whoamiText h2{
         margin-bottom: 1.5rem;
         font-size: 55px;
-        
     }
     
     .whoamiText p{
         font-size: 24px;
         max-width: 550px;
-        
     }
+
     .imgContainer img{
         width: 600px;
     } 
 }
+@media (max-width:1300px){
+    .imgContainer{
+        width: auto;
+    }
+
+    .imgContainer img{
+        width: auto;
+    }
+
+    .whoamiText{
+        width: 53%;
+        margin-left: 1rem;
+    }
+}
+
 @media (max-width:1017px) {
     .imgContainer img{
         width: 400px;
     } 
 
-   
 }
 
 @media (max-width:880px) {
@@ -113,12 +130,12 @@
 
     .imgContainer {
         margin-left: 0;
-        height: 450px;
+        height: 430px;
         width: auto;
     }
 
     .imgContainer img{
-        width: 550px;
+        width: 500px;
     }
 
     .btnsContainer{
