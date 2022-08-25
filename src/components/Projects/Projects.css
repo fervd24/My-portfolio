@@ -14,7 +14,7 @@
 
 .projTextContainer {
     height: auto;
-    width: 45%;
+    width: 40%;
     padding: 0 1rem;
     font-family: 'PT Sans', sans-serif;
     margin-left: auto;
@@ -49,7 +49,7 @@
 
 .projImgContainer {
     height: 300px;
-    width: 50%;
+    width: 40%;
     margin-right: auto;
 }
 
@@ -65,14 +65,15 @@
 }
 
 @media (max-width:1500px){
+    .projTextContainer{
+        margin-left: auto;
+        width: 45%;
+    }
+
     .projTextContainer h2{
         font-size: 31px;
     }
 
-    .projTextContainer{
-        margin-left: auto;
-    }
-    
     .projTextContainer p{
         font-size: 20px;
     }
@@ -80,9 +81,14 @@
     .projTextSubcontainer{
         max-width: 600px;
     }
+
     .projImgSubcontainer img{
         width: 100%;
         height: auto;
+    }
+
+    .projImgContainer {
+        width: 50%;
     }
 }
 
