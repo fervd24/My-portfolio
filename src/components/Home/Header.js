@@ -25,7 +25,6 @@ export default function Header() {
                                 <Button textBtn="Follow me on Github" path={'https://github.com/fervd24'}/>
                                 <Button textBtn="See my resume" path={'https://drive.google.com/file/d/1sd1jN49Td6RKV9wE8Et3kZ6n7MYXbmXC/view?usp=sharing'}/>
                             </div>
-
                         </div>
                     </div>
                     <div className="imgContainer">

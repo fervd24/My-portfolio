@@ -33,7 +33,7 @@ export default function Body() {
                 </div>
                 <div className={`${theme} whatidoText`}>
                     <h2>What I do</h2>
-                    <h3>Web development</h3>
+                    <h3>Full Stack Developer</h3>
                     <TechIcons/>
                     <div className="todoListContainer">
                         {
@@ -43,7 +43,6 @@ export default function Body() {
                                     {todo.do}
                                 </div>
                             </li>)
-
                         }
                     </div>
                 </div>
