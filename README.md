@@ -1,8 +1,7 @@
 # Personal Portfolio
 
-### React version
+## React version
 
- 
 React 18.2.0 - channel stable  
 
 * It's recomended to use the same version and channel
@@ -12,9 +11,12 @@ React 18.2.0 - channel stable
 
 To get started, clone/fork or download as zip the repository.
 
-##### Command to download packages
+### Command to download packages
+
   npm install
-##### Command to run the app
+
+### Command to run the app
+
   npm start
 
 ### Folder Structure (Demo)
@@ -35,9 +37,7 @@ To get started, clone/fork or download as zip the repository.
     ├── package.json
     ├── package.json.lock
 
-
 ------
-
 
 ### Todo's List
 
