@@ -8,7 +8,7 @@ const cardsData = [
     {
         id: 1,
         title: "Portfolio",
-        desc: "Portfolio created with react JS. Implementing toggle button between light and dark theme.",
+        desc: "Portfolio with a client side created in ReactJS and a NodeJS-Express backend to handle and send the form data via email. Implementing toggle button between light and dark theme.",
         imgs: [
             {
                 iconName: faJs,
@@ -23,7 +23,7 @@ const cardsData = [
                 className: "projIconCss"
             }
         ],
-        link: "https://github.com/fervd24/My-portfolio"
+        link: "https://github.com/fervd24/Personalfolio-demo"
     },
     {
         id: 2,
