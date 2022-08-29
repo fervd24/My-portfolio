@@ -23,7 +23,7 @@ export default function Skills() {
                     </div>)}
                 </div>
                 <div className="aptsContainer">
-                    <h2>Aptitudes</h2>
+                    <h2>Proficiency</h2>
                     {data.aptitudes.map(item => <div key={item.id} className={`${theme} aptsSubcontainer`}>
                         <div className={`${theme} titleAptBar`}>{item.name}</div>
                         <h2><div className={`${item.nameClass} aptBar`}></div> </h2>
