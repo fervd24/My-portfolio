@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import TechIcons from "./TechIcons";
 import vader from "../../assets/Miproyecto.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,6 +6,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons"
 import { ThemeContext } from "../../Theme";
 
 import "./Body.css";
+import Aos from "aos";
 
 export default function Body() {
     const {theme} = useContext(ThemeContext);
@@ -24,14 +25,18 @@ export default function Body() {
             do: 'Build REST APIs with NodeJs and Express.'
         },
     ];
+
+    useEffect(() => {
+        Aos.init({ duration: 2100 });
+      },[]);
     
     return(
         <body>
             <div className="whatidoContainer">
-                <div className="imgContainer2">
+                <div className="imgContainer2" data-aos="fade-down">
                     <img src={vader} alt="vader"/>
                 </div>
-                <div className={`${theme} whatidoText`}>
+                <div className={`${theme} whatidoText`} data-aos="fade-up">
                     <h2>What I do</h2>
                     <h3>Full Stack Developer</h3>
                     <TechIcons/>

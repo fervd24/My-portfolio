@@ -4,7 +4,9 @@ import "./ProjCards.css";
 export default function ProjCards({cards}) {
     return(
         <div className="projCardsContainer">
-            <div className="projCardsSubcontainer">
+            <div className="projCardsSubcontainer" 
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                 {cards.map(item => {
                         return(
                             <a href={item.link} target="_blank" rel="noreferrer" key={item.id} className="cardContainer">

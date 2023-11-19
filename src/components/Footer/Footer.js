@@ -1,5 +1,5 @@
 
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../Theme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 
 import "./Footer.css";
+import Aos from "aos";
 
 export default function Footer() {
     const {theme, toggleTheme} = useContext(ThemeContext);
@@ -23,9 +24,14 @@ export default function Footer() {
         }
         console.log(e.target.checked);
     }
+
+    useEffect(() => {
+        Aos.init({ duration: 1100 });
+      },[]);
+
     return(
-        <div className="mainFooterContainer">
-            <div className={`${theme} footerSubcontainer`}>
+        <div className="mainFooterContainer" >
+            <div className={`${theme} footerSubcontainer`} data-aos="zoom-in">
                 <div className={`${theme} switchContainer`}>
                     <input className="iptCheckbox" type="checkbox" id="switch" onChange={handleChange} onClick={() => toggleTheme()}></input>
                     <label htmlFor="switch">

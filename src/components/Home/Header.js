@@ -1,19 +1,24 @@
 
 import Button from "../Button/Button";
 import developer from "../../assets/developer.png"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../Theme";
 
 import "./Header.css";
+import Aos from "aos";
 
 
 export default function Header() {
     const { theme } = useContext(ThemeContext);
 
+    useEffect(() => {
+        Aos.init({ duration: 2100 });
+      },[]);
+
     return(
         <header className={`${theme} whoamiContainer`}>
                 <div className="whoamiSubcontainer">
-                    <div className={`${theme} whoamiText`}>
+                    <div className={`${theme} whoamiText`} data-aos='fade-right'>
                         <div>
                             <h2>Hi everyone, I'm Fernando</h2>
                             <p>
@@ -27,7 +32,7 @@ export default function Header() {
                             </div>
                         </div>
                     </div>
-                    <div className="imgContainer">
+                    <div className="imgContainer" data-aos='fade-left'>
                         <img src={developer} alt="dev"/>
                     </div>
                 </div>

@@ -15,7 +15,11 @@ export default function Projects() {
         <div className="projContainer">
             <div className="projSubcontainer">
                 <div className="projTextContainer">
-                    <div className={`${theme} projTextSubcontainer`}>
+                    <div className={`${theme} projTextSubcontainer`}
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                         <h2>PROJECTS</h2>
                         <p>
                             My projects are mainly made up with frontend technologies
@@ -25,7 +29,12 @@ export default function Projects() {
                         </p>
                     </div>
                 </div>
-                <div className="projImgContainer">
+                <div 
+                    className="projImgContainer" 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0">
                     <div className="projImgSubcontainer">
                         <img src={coding} alt="coding"/>
                     </div>
